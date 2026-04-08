@@ -1,0 +1,24 @@
+
+body{
+    /* style.css */
+
+    /* Cargamos la imagen desde tu carpeta */
+    background-image: url('combate.png');
+
+    /* Logística de fondo: Cubrir toda la pantalla sin repetirse */
+    background-size: cover;      /* La imagen se estira para llenar todo el espacio */
+    background-position: center;  /* El centro de la batalla siempre estará visible */
+    background-repeat: no-repeat;  /* No queremos que se vea una cuadrícula de fondos */
+    background-attachment: fixed;  /* El fondo se queda quieto si haces scroll */
+
+    /* Para que no queden bordes blancos feos */
+    margin: 0;
+    padding: 0;
+    
+    /* Para centrar tus Pokémon y el título */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura de toda la pantalla */
+}
