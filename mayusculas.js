@@ -1,9 +1,10 @@
-export function mayusculas (str){
-   try{
-       let grito = str.toUpperCase();
-        return `¡Grito con éxito!: ${grito}`;
-   } catch (error) {
+
+export function gritarPalabra(dato) {
+    try {
+        
+        return dato.toUpperCase();
+    } catch (error) {
        
-       return "eso no es una palabra es un numero";
-   }
+        return "¡Eso no es una palabra, es un número!";
+    }
 }
